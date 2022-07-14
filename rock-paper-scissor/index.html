@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+</head>
+<body>
+    <!-- return previous page -->
+    <div class="return">
+        <a href="./index.html">
+            <i class="fa fa-arrow-left"></i>
+        </a>
+    </div>
+
+    <div class="texts">
+        <h2 class="computerChoice">Computer Choice: <span id="computer-choice"></span></h2>
+    <h2 class="userChoice">Your Choice: <span id="user-choice"></span></h2>
+    <h2 class="result">Result: <span id="result"></span></h2>
+    </div>
+    
+    <div class="buttons">
+        <button class="btn" id="rock"><i id="rock" style="font-size: 50px;" class="fa fa-hand-grab-o"></i></button>
+        <button class="btn" id="paper"><i id="paper" style="font-size: 50px;" class="fa fa-hand-paper-o"></i></button>
+        <button class="btn" id="scissor"><i id="scissor" style="font-size: 50px;" class="fa fa-hand-scissors-o"></i></button>
+    </div>
+    
+    <script src="app.js" charset="utf-8"></script>
+</body>
+</html>

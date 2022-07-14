@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #000;
+}
+
+
+.button-group {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.game.field {
+    /* display: none!important; */
+    background-color: black;
+}
+
+
+.grid {
+    display: none;
+    width: 300px;
+    height: 300px;
+    border: solid #fff 1px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.invader {
+    /* background-color: purple; */
+    /* border-radius: 10px; */
+    background-image: url('./images/invader.svg');
+}
+
+.shooter {
+    background-image: url('./images/spaceship.svg');
+    width: 100%;
+}
+
+.laser {
+    background-image: url('./images/laser.svg');
+    width: 100%;
+}
+
+.boom {
+    background-color: red;
+}
+
+.button-group {
+    margin-top: 50px;
+    width: 250px;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.btn {
+    margin: 5px;
+    width: 100px;
+    height: 50px;
+    border: solid black 1px;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-success {
+    background-color: green;
+}
+
+.btn-success:hover  {
+    background-color: darkgreen;
+}
+
+.btn-warning {
+    background-color: yellow;
+}
+
+.btn-warning:hover {
+    background-color: goldenrod;
+}
+
+.btn-danger {
+    background-color: red;
+}
+
+.btn-danger:hover {
+    background-color: darkred;
+}
