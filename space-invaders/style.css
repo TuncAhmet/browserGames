@@ -5,6 +5,7 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     background-color: #000;
+    color: #fff;
 }
 
 
@@ -23,7 +24,7 @@ body {
 }
 
 
-.grid {
+.gridy {
     display: none;
     width: 300px;
     height: 300px;
@@ -32,7 +33,7 @@ body {
     flex-wrap: wrap;
 }
 
-.grid div {
+.gridy div {
     width: 20px;
     height: 20px;
 }
@@ -103,4 +104,39 @@ body {
 
 .btn-danger:hover {
     background-color: darkred;
+}
+/* 
+audio {
+    display: none;
+} */
+
+.button-group-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+button i {
+    font-size: 30px;
+    color: #000;
+}
+
+.arrows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.none {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .none {
+        display: list-item  ;
+    }
 }
